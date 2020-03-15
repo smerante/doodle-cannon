@@ -1,0 +1,1173 @@
+[
+{
+	class: com.studios0110.levels.LevelManager
+	level: 1
+	canPos: {
+		x: 700
+		y: 300
+	}
+	canButPos: {
+		x: 50
+		y: 600
+	}
+	bucketPos: {
+		x: 850
+		y: 100
+	}
+	helpText: "Aim the cannon \nshoot the ball \nin the basket!"
+	grav: -9.8
+	camZoom: 1
+}
+
+{
+	class: com.studios0110.levels.LevelManager
+	level: 2
+	canPos: {
+		x: 600
+		y: 300
+	}
+	canButPos: {
+		x: 50
+		y: 600
+	}
+	bucketPos: {
+		x: 950
+		y: 400
+		z: 90
+	}
+	helpText: "Avoid\nThe\nWalls!"
+	grav: -9.8
+	camZoom: 1
+	numP: 3
+	platformTextures: [
+		Platform2
+		Platform2
+		Platform3
+	]
+	platformPositions: [
+		{
+			x: 900
+			y: 500
+			z: 90
+		}
+		{
+			x:900
+			y:0
+			z: 90
+		}
+		{
+			x: 0
+			y:770
+			z: 0
+		}
+	]
+}
+{
+	class: com.studios0110.levels.LevelManager
+	level: 3
+	canPos: {
+		x: 500
+		y: 50
+	}
+	canButPos: {
+		x: 50
+		y: 600
+	}
+	bucketPos: {
+		x: 750
+		y: 500
+		z: 0
+	}
+	helpText: "Dont\nMove!"
+	grav: -9.8
+	camZoom: 1
+	numP: 4
+	platformTextures: [
+		Platform
+		Platform
+		Platform
+		Platform
+	]
+	platformPositions: [
+		{
+			x: 550
+			y: 650
+			z: 20
+		}
+		{
+			x:750
+			y:0
+			z: 70
+		}
+		{
+			x: 500
+			y: 150
+			z: 110
+		}
+		{
+			x: 560
+			y: 350
+			z: 0
+		}
+	]
+}
+{
+	class: com.studios0110.levels.LevelManager
+	level: 4
+	canPos: {
+		x: 500
+		y: 720
+	}
+	canButPos: {
+		x: 50
+		y: 600
+	}
+	bucketPos: {
+		x: 750
+		y: 50
+		z: 0
+	}
+	helpText: ""
+	grav: -9.8
+	camZoom: 1
+	numP: 5
+	platformTextures: [
+		Platform
+		Platform2
+		Platform2
+		Platform2
+		Platform2
+	]
+	platformPositions: [
+		{
+			x: 965
+			y: 50
+			z: 90
+		}
+		{
+			x:470
+			y:660
+			z: 340
+		}
+		{
+			x: 600
+			y: 330
+			z: 20
+		}
+		{
+			x: 400
+			y: 260
+			z: -20
+		}
+		{
+			x: 905
+			y: 520
+			z: 20
+		}
+	]
+}
+{
+	class: com.studios0110.levels.LevelManager
+	level: 5
+	canPos: {
+		x: 500
+		y: 700
+	}
+	canButPos: {
+		x: 50
+		y: 600
+	}
+	bucketPos: {
+		x: 750
+		y: 50
+	}
+	helpText: ""
+	grav: -9.8
+	camZoom: 1
+	numMP: 3
+	platformTextures: [
+		Platform2
+		Platform2
+		Platform2
+		Platform2
+	]
+	platformPositions: [
+		{
+			x: 700
+			y: 400
+			z: 0
+		}
+		{
+			x: 400
+			y: 600
+			z: 0
+		}
+		{
+			x: 300
+			y: 0
+			z: 45
+		}
+	]
+	velocity: [
+		{
+			x: 150
+			y: 0
+		}
+		{
+			x: -150
+			y: 0
+		}
+		{
+			x: 150
+			y: 150
+		}
+	]
+	changeTime: [2, 2, 5 ]
+}
+{
+	class: com.studios0110.levels.LevelManager
+	level: 6
+	canPos: {
+		x: 200
+		y: 650
+	}
+	canButPos: {
+		x: 350
+		y: 300
+	}
+	bucketPos: {
+		x: 950
+		y: 50
+	}
+	helpText: ""
+	grav: -9.8
+	camZoom: 1
+	numP: 1
+	numMP: 1
+	numRP: 1
+	platformTextures: [
+		Platform3
+		Platform
+		Platform
+	]
+	platformPositions: [
+		{
+			x: -900
+			y: 550
+			z: 0
+		}
+		{
+			x: 880
+			y: 300
+			z: 90
+		}
+		
+		{
+			x: 920
+			y: 500
+			z: 0
+		}
+	]
+	velocity: [
+		{
+			x: 0
+			y: 20
+		}
+	]
+	changeTime: [ 20 ]
+	rotationSpeeds: [ -20 ]
+}
+{
+	class: com.studios0110.levels.LevelManager
+	level: 7
+	canPos: {
+		x: 25
+		y: 300
+	}
+	canButPos: {
+		x: 450
+		y: 200
+	}
+	bucketPos: {
+		x: 1300
+		y: 300
+		z: 45
+	}
+	helpText: ""
+	grav: -9.8
+	camZoom: 1
+	numP: 4
+	platformTextures: [
+		Platform2
+		Platform
+		Platform
+		Platform2
+	]
+	platformPositions: [
+		{
+			x: 0
+			y: 720
+			z: 0
+		}
+		{
+			x: 360
+			y: 790
+			z: -90
+		}
+		{
+			x: 360
+			y: 490
+			z: -90
+		}
+		{
+			x: 0
+			y: 270
+			z: 0
+		}
+	]
+	velocity: [
+		
+	]
+	changeTime: [  ]
+	rotationSpeeds: [  ]
+}
+{
+	class: com.studios0110.levels.LevelManager
+	level: 8
+	canPos: {
+		x: 1095
+		y: 360
+	}
+	canButPos: {
+		x: 450
+		y: 150
+	}
+	bucketPos: {
+		x: 10
+		y: 350
+		z: -90
+	}
+	helpText: "Zero Gravity!"
+	grav: 0
+	camZoom: 1
+	numP: 8
+	numRP: 1
+	platformTextures: [
+		Platform
+		Platform
+		Platform
+		Platform
+		Platform3
+		Platform3
+		Platform3
+		Platform3
+		Platform
+	]
+	platformPositions: [
+		{
+			x: 25
+			y: 620
+			z: 45
+		}
+		{
+			x: 160
+			y: 20
+			z: 135
+		}
+		{
+			x: 1500
+			y: 640
+			z: 135
+		}
+		{
+			x: 1350
+			y: 5
+			z: 45
+		}
+		{
+			x: 10
+			y: 760
+			z: 0
+		}
+		{
+			x: 1500
+			y: 0
+			z: 90
+		}
+		{
+			x: 10
+			y: 10
+			z: 0
+		}
+		{
+			x: 40
+			y: 10
+			z: 90
+		}
+		{
+			x: 650
+			y: 400
+			z: 0
+		}
+	]
+	velocity: [
+		
+	]
+	changeTime: [  ]
+	rotationSpeeds: [ 180 ]
+}
+{
+	class: com.studios0110.levels.LevelManager
+	level: 9
+	canPos: {
+		x: 500
+		y: 50
+	}
+	canButPos: {
+		x: 50
+		y: 600
+	}
+	bucketPos: {
+		x: 720
+		y: 500
+		z: 45
+	}
+	helpText: ""
+	grav: 0
+	camZoom: 1
+	numP: 4
+	platformTextures: [
+		Platform
+		Platform
+		Platform
+		Platform
+	]
+	platformPositions: [
+		{
+			x: 550
+			y: 670
+			z: 20
+		}
+		{
+			x:760
+			y:0
+			z: 70
+		}
+		{
+			x: 470
+			y: 150
+			z: 110
+		}
+		{
+			x: 550
+			y: 350
+			z: 0
+		}
+	]
+}
+{
+	class: com.studios0110.levels.LevelManager
+	level: 10
+	canPos: {
+		x: 25
+		y: 300
+	}
+	canButPos: {
+		x: 450
+		y: 200
+	}
+	bucketPos: {
+		x: 1400
+		y: 300
+		z: 90
+	}
+	helpText: ""
+	grav: 0
+	camZoom: 1
+	numMP: 4
+	platformTextures: [
+		Platform2
+		Platform2
+		Platform2
+		Platform2
+	]
+	platformPositions: [
+		{
+			x: 400
+			y: 0
+			z: 90
+		}
+		{
+			x: 800
+			y: -400
+			z: 90
+		}
+		{
+			x: 1200
+			y: -650
+			z: 90
+		}
+		{
+			x: 1400
+			y: -880
+			z: 90
+		}
+	]
+	velocity: [
+		{
+			x: 0
+			y: 200
+		}
+		{
+			x: 0
+			y: 200
+		}
+		{
+			x: 0
+			y: 200
+		}
+		{
+			x: 0
+			y: 200
+		}
+	]
+	changeTime: [3.5, 5.5, 7, 9 ]
+}
+{
+	class: com.studios0110.levels.LevelManager
+	level: 11
+	canPos: {
+		x: 200
+		y: 650
+	}
+	canButPos: {
+		x: 350
+		y: 300
+	}
+	bucketPos: {
+		x: 850
+		y: 250
+	}
+	helpText: ""
+	grav: 0
+	camZoom: 1
+	numP: 1
+	numMP: 1
+	numRP: 1
+	platformTextures: [
+		Platform3
+		Platform
+		Platform2
+	]
+	platformPositions: [
+		{
+			x: -900
+			y: 550
+			z: 0
+		}
+		{
+			x: 750
+			y: 300
+			z: 90
+		}
+		
+		{
+			x: 920
+			y: 500
+			z: 0
+		}
+	]
+	velocity: [
+		{
+			x: 0
+			y: 20
+		}
+	]
+	changeTime: [ 20 ]
+	rotationSpeeds: [ 160 ]
+}
+{
+	class: com.studios0110.levels.LevelManager
+	level: 12
+	canPos: {
+		x: 50
+		y: 700
+	}
+	canButPos: {
+		x: 350
+		y: 300
+	}
+	bucketPos: {
+		x: 1350
+		y: 650
+		z: 90
+	}
+	helpText: ""
+	grav: 0
+	camZoom: 1
+	numP: 2
+	numMP:1
+	platformTextures: [
+		Platform
+		Platform
+		Platform2
+	]
+	platformPositions: [
+		{
+			x: 1100
+			y: 600
+			z: 45
+		}
+		{
+			x: 1200
+			y: 50
+			z: 35
+		}
+		
+		{
+			x: 800
+			y: 0
+			z: 90
+		}
+	]
+	velocity: [
+		{
+			x: 0
+			y: 100
+		}
+	]
+	changeTime: [ 5 ]
+}
+{
+	class: com.studios0110.levels.LevelManager
+	level: 13
+	canPos: {
+		x: 50
+		y: 400
+	}
+	canButPos: {
+		x: 450
+		y: 100
+	}
+	bucketPos: {
+		x: 1350
+		y: 220
+		z: 70
+	}
+	helpText: ""
+	grav: 0
+	camZoom: 1
+	numP: 2
+	numMP:1
+	platformTextures: [
+		Platform3
+		Platform3
+		Platform2
+	]
+	platformPositions: [
+		{
+			x: -450
+			y: 350
+			z: 0
+		}
+		{
+			x: -250
+			y: 530
+			z: 0
+		}
+		
+		{
+			x: 1300
+			y: 0
+			z: 90
+		}
+	]
+	velocity: [
+		{
+			x: 0
+			y: 100
+		}
+	]
+	changeTime: [ 5 ]
+}
+{
+	class: com.studios0110.levels.LevelManager
+	level: 14
+	canPos: {
+		x: 50
+		y: 400
+	}
+	canButPos: {
+		x: 450
+		y: 100
+	}
+	bucketPos: {
+		x: 850
+		y: 620
+		z: 270
+	}
+	helpText: ""
+	grav: 0
+	camZoom: 1
+	numP: 3
+	numMP:1
+	platformTextures: [
+		Platform3
+		Platform3
+		Platform
+		Platform2
+	]
+	platformPositions: [
+		{
+			x: -500
+			y: 350
+			z: 0
+		}
+		{
+			x: -500
+			y: 530
+			z: 0
+		}
+		
+		{
+			x: 10
+			y: 370
+			z: 90
+		}
+		{
+			x: 1300
+			y: 0
+			z: 90
+		}
+	]
+	velocity: [
+		{
+			x: 0
+			y: 400
+		}
+	]
+	changeTime: [ 1 ]
+}
+{
+	class: com.studios0110.levels.LevelManager
+	level: 15
+	canPos: {
+		x: 1095
+		y: 360
+	}
+	canButPos: {
+		x: 450
+		y: 150
+	}
+	bucketPos: {
+		x: 10
+		y: 350
+		z: -90
+	}
+	helpText: "Reverse Gravity!"
+	grav: 9.8
+	camZoom: 1
+	numP: 8
+	numRP: 1
+	platformTextures: [
+		Platform
+		Platform
+		Platform
+		Platform
+		Platform3
+		Platform3
+		Platform3
+		Platform3
+		Platform
+	]
+	platformPositions: [
+		{
+			x: 25
+			y: 620
+			z: 45
+		}
+		{
+			x: 160
+			y: 20
+			z: 135
+		}
+		{
+			x: 1500
+			y: 640
+			z: 135
+		}
+		{
+			x: 1350
+			y: 5
+			z: 45
+		}
+		{
+			x: 10
+			y: 760
+			z: 0
+		}
+		{
+			x: 1500
+			y: 0
+			z: 90
+		}
+		{
+			x: 10
+			y: 10
+			z: 0
+		}
+		{
+			x: 40
+			y: 10
+			z: 90
+		}
+		{
+			x: 650
+			y: 400
+			z: 0
+		}
+	]
+	velocity: [
+		
+	]
+	changeTime: [  ]
+	rotationSpeeds: [ 180 ]
+}
+{
+	class: com.studios0110.levels.LevelManager
+	level: 16
+	canPos: {
+		x: 500
+		y: 50
+	}
+	canButPos: {
+		x: 50
+		y: 600
+	}
+	bucketPos: {
+		x: 750
+		y: 500
+		z: 180
+	}
+	helpText: ""
+	grav: 9.8
+	camZoom: 1
+	numP: 4
+	platformTextures: [
+		Platform
+		Platform
+		Platform
+		Platform
+	]
+	platformPositions: [
+		{
+			x: 500
+			y: 650
+			z: 20
+		}
+		{
+			x:750
+			y:0
+			z: 70
+		}
+		{
+			x: 930
+			y: 360
+			z: 90
+		}
+		{
+			x: 680
+			y: 350
+			z: 0
+		}
+	]
+}
+{
+	class: com.studios0110.levels.LevelManager
+	level: 17
+	canPos: {
+		x: 500
+		y: 700
+	}
+	canButPos: {
+		x: 50
+		y: 600
+	}
+	bucketPos: {
+		x: 750
+		y: 50
+	}
+	helpText: ""
+	grav: 9.8
+	camZoom: 1
+	numMP: 3
+	platformTextures: [
+		Platform2
+		Platform2
+		Platform2
+		Platform2
+	]
+	platformPositions: [
+		{
+			x: 700
+			y: 400
+			z: 0
+		}
+		{
+			x: 400
+			y: 600
+			z: 0
+		}
+		{
+			x: 300
+			y: 0
+			z: 45
+		}
+	]
+	velocity: [
+		{
+			x: 150
+			y: 0
+		}
+		{
+			x: -150
+			y: 0
+		}
+		{
+			x: 150
+			y: 150
+		}
+	]
+	changeTime: [2, 2, 5 ]
+}
+{
+	class: com.studios0110.levels.LevelManager
+	level: 18
+	canPos: {
+		x: 25
+		y: 300
+	}
+	canButPos: {
+		x: 450
+		y: 200
+	}
+	bucketPos: {
+		x: 1400
+		y: 300
+		z: 90
+	}
+	helpText: ""
+	grav: 9.8
+	camZoom: 1
+	numMP: 4
+	platformTextures: [
+		Platform2
+		Platform2
+		Platform2
+		Platform2
+	]
+	platformPositions: [
+		{
+			x: 400
+			y: 0
+			z: 90
+		}
+		{
+			x: 800
+			y: -400
+			z: 90
+		}
+		{
+			x: 1200
+			y: -650
+			z: 90
+		}
+		{
+			x: 1400
+			y: -880
+			z: 90
+		}
+	]
+	velocity: [
+		{
+			x: 0
+			y: 200
+		}
+		{
+			x: 0
+			y: 200
+		}
+		{
+			x: 0
+			y: 200
+		}
+		{
+			x: 0
+			y: 200
+		}
+	]
+	changeTime: [3.5, 5.5, 7, 9 ]
+}
+{
+	class: com.studios0110.levels.LevelManager
+	level: 19
+	canPos: {
+		x: 50
+		y: 700
+	}
+	canButPos: {
+		x: 350
+		y: 300
+	}
+	bucketPos: {
+		x: 1350
+		y: 650
+		z: 120
+	}
+	helpText: ""
+	grav: 9.8
+	camZoom: 1
+	numP: 2
+	numMP:1
+	platformTextures: [
+		Platform
+		Platform
+		Platform2
+	]
+	platformPositions: [
+		{
+			x: 1100
+			y: 600
+			z: 45
+		}
+		{
+			x: 1200
+			y: 50
+			z: 35
+		}
+		
+		{
+			x: 800
+			y: 0
+			z: 90
+		}
+	]
+	velocity: [
+		{
+			x: 0
+			y: 100
+		}
+	]
+	changeTime: [ 5 ]
+}
+{
+	class: com.studios0110.levels.LevelManager
+	level: 20
+	canPos: {
+		x: 50
+		y: 400
+	}
+	canButPos: {
+		x: 450
+		y: 100
+	}
+	bucketPos: {
+		x: 1350
+		y: 220
+		z: 70
+	}
+	helpText: ""
+	grav: 9.8
+	camZoom: 1
+	numP: 2
+	numMP:1
+	platformTextures: [
+		Platform3
+		Platform3
+		Platform2
+	]
+	platformPositions: [
+		{
+			x: -450
+			y: 350
+			z: 0
+		}
+		{
+			x: -250
+			y: 530
+			z: 0
+		}
+		
+		{
+			x: 1300
+			y: 0
+			z: 90
+		}
+	]
+	velocity: [
+		{
+			x: 0
+			y: 100
+		}
+	]
+	changeTime: [ 5 ]
+}
+{
+	class: com.studios0110.levels.LevelManager
+	level: 21
+	canPos: {
+		x: 50
+		y: 400
+	}
+	canButPos: {
+		x: 450
+		y: 100
+	}
+	bucketPos: {
+		x: 850
+		y: 620
+		z: 270
+	}
+	helpText: ""
+	grav: 9.8
+	camZoom: 1
+	numP: 3
+	numMP:1
+	platformTextures: [
+		Platform3
+		Platform3
+		Platform
+		Platform2
+	]
+	platformPositions: [
+		{
+			x: -500
+			y: 350
+			z: 0
+		}
+		{
+			x: -500
+			y: 530
+			z: 0
+		}
+		
+		{
+			x: 10
+			y: 370
+			z: 90
+		}
+		{
+			x: 1300
+			y: 0
+			z: 90
+		}
+	]
+	velocity: [
+		{
+			x: 0
+			y: 400
+		}
+	]
+	changeTime: [ 1 ]
+}
+]
